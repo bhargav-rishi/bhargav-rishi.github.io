@@ -1,0 +1,21 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gSkyCrop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#0b6fa4"/>
+    </linearGradient>
+    <linearGradient id="gField" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14532d"/>
+      <stop offset="1" stop-color="#052e16"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#gSkyCrop)"/>
+  <rect y="340" width="1200" height="380" fill="url(#gField)"/>
+  <path d="M0 420c160-40 320-40 480 0s320 40 480 0 320-40 240-20v140H0z" fill="#166534"/>
+  <path d="M0 480c160-36 320-36 480 0s320 36 480 0 320-36 240-18v120H0z" fill="#15803d" opacity="0.9"/>
+  <path d="M0 540c160-30 320-30 480 0s320 30 480 0 320-30 240-15v90H0z" fill="#16a34a" opacity="0.85"/>
+  <path d="M120 360c60 0 60 200 120 200s60-200 120-200 60 200 120 200 60-200 120-200 60 200 120 200 60-200 120-200 60 200 120 200 60-200 120-200" stroke="#34d399" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <circle cx="1040" cy="160" r="80" fill="#fde68a" opacity="0.85"/>
+  <text x="120" y="160" fill="#e0f2fe" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="50" font-weight="700">Smart Crop Prediction</text>
+  <text x="120" y="200" fill="#e2f3fb" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="22" font-weight="500">Soil + weather features · ML classification</text>
+</svg>

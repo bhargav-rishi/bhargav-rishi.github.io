@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Bhargav Rishi Medisetti | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="bg-accents" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="brand">
+        <div class="brand-photo">
+          <img src="./assets/profile.svg" alt="Bhargav Rishi headshot" />
+        </div>
+        <div class="brand-copy">
+          <p class="eyebrow name-strong">Bhargav Rishi Medisetti</p>
+          <p class="caption">Preferred name: Rishi</p>
+          <p class="muted">AI/ML engineer focused on dependable data and applied models.</p>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#featured">Projects</a>
+        <a href="#profile">Profile</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="card hero">
+        <div class="hero-copy">
+          <h2>Hi, I’m Rishi—an AI/ML engineer who blends data engineering, analytics, and applied models.</h2>
+          <p class="lede">
+            I build RAG assistants, vision/audio ML, and end-to-end data pipelines, pairing them with clear analytics in Power BI and Tableau.
+            Passionate about dependable ETL, transparent evaluation, and shipping work that’s easy to trust.
+          </p>
+          <div class="chips" id="skills"></div>
+          <div class="socials">
+            <a class="icon-link" href="https://www.linkedin.com/in/bhargav-rishi-medisetti" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6C1.12 6 0 4.88 0 3.5C0 2.12 1.12 1 2.5 1C3.88 1 4.98 2.12 4.98 3.5ZM0.22 8.5H4.78V24H0.22V8.5ZM8.34 8.5H12.7V10.54H12.76C13.36 9.4 14.74 8.2 16.84 8.2C21.3 8.2 22 11.14 22 15.04V24H17.44V15.98C17.44 14.08 17.4 11.7 14.82 11.7C12.2 11.7 11.8 13.74 11.8 15.84V24H7.24V8.5H8.34Z" fill="#E5E7F0"/>
+              </svg>
+            </a>
+            <a class="icon-link" href="https://github.com/Bhargav-Rishi" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 0.5C5.37 0.5 0 5.87 0 12.5C0 17.74 3.438 22.16 8.205 23.68C8.805 23.79 9.025 23.43 9.025 23.11C9.025 22.82 9.015 22.07 9.01 21.09C5.672 21.82 4.968 19.39 4.968 19.39C4.422 17.97 3.633 17.59 3.633 17.59C2.546 16.86 3.715 16.875 3.715 16.875C4.922 16.96 5.555 18.12 5.555 18.12C6.625 19.95 8.364 19.42 9.05 19.12C9.158 18.34 9.47 17.81 9.81 17.52C7.145 17.23 4.343 16.19 4.343 11.54C4.343 10.23 4.805 9.17 5.57 8.34C5.444 8.05 5.04 6.8 5.684 5.1C5.684 5.1 6.682 4.79 9 6.38C9.943 6.12 10.96 5.99 11.978 5.99C12.995 5.99 14.013 6.12 14.958 6.38C17.274 4.79 18.27 5.1 18.27 5.1C18.916 6.8 18.51 8.05 18.384 8.34C19.15 9.17 19.61 10.23 19.61 11.54C19.61 16.21 16.802 17.23 14.13 17.52C14.55 17.88 14.93 18.62 14.93 19.75C14.93 21.32 14.915 22.64 14.915 23.11C14.915 23.43 15.135 23.79 15.745 23.68C20.51 22.16 23.945 17.74 23.945 12.5C23.945 5.87 18.575 0.5 12 0.5Z" fill="#E5E7F0"/>
+              </svg>
+            </a>
+          </div>
+          <div class="hero-about">
+            <div>
+              <p class="eyebrow">Strengths</p>
+              <div class="strengths" id="strengths"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile" class="card info">
+        <div class="info-row edu-row">
+          <div>
+            <p class="eyebrow">Education</p>
+            <div class="edu-header">
+              <div class="logo edu">USF</div>
+              <div>
+                <h2 class="edu-title">University of South Florida</h2>
+                <p class="body edu-line"><strong>M.S. Artificial Intelligence and Business Analytics</strong> | GPA: 4.0 | Expected: May 2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-row">
+          <div>
+            <p class="eyebrow">Experience</p>
+            <ul class="body experience-list">
+              <li>
+                <div class="exp-row">
+                  <div class="logo work mini">USF</div>
+                  <div>
+                    <strong>University of South Florida</strong> — Graduate Research Assistant (Jan 2025 – Present)
+                    <ul class="exp-details">
+                      <li>● Built a Django + Azure Canvas LMS app; streamlined instructor outreach and student tracking.</li>
+                      <li>● Delivered lectures on computing, MS Office, and Tableau/business analytics.</li>
+                      <li>● Focused on reproducible builds and clear data-driven evaluation.</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="exp-row">
+                  <div class="logo work mini">INF</div>
+                  <div>
+                    <strong>Infosys / Virgin Media</strong> — Senior Systems Engineer (Data Engineer) (Jan 2021 – May 2024)
+                    <ul class="exp-details">
+                      <li>● Designed Ab Initio pipelines ingesting 40M+ records; cut reporting time by 60%.</li>
+                      <li>● Led GDPR programs (~$13M) that drove ~$45M savings and stronger compliance.</li>
+                      <li>● Migrated 50M+ records to Oracle/Netezza with minimal downtime; tuned models for faster retrieval.</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="featured" class="section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Featured work</p>
+            <h2>Top projects</h2>
+          </div>
+          <a class="link" id="contactProjects" href="#">Request a walkthrough →</a>
+        </div>
+        <div class="grid" id="featuredGrid"></div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">All work</p>
+            <h2>All projects</h2>
+          </div>
+          <a class="link" href="#featured">Back to featured →</a>
+        </div>
+        <div class="grid" id="allProjectsGrid"></div>
+      </section>
+
+      <section id="contact" class="card contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s connect</h2>
+          <p class="body">
+            Recruiters and hiring teams: reach out for walkthroughs, code samples, or role fit. Happy to dive into the projects and discuss how I work.
+          </p>
+        </div>
+        <div class="actions">
+          <a class="btn primary" id="contactBottom" href="#">Email me</a>
+          <a class="btn ghost" href="#projects">See work again</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

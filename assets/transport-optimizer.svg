@@ -1,0 +1,38 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gSky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1b2a"/>
+      <stop offset="1" stop-color="#112f45"/>
+    </linearGradient>
+    <linearGradient id="gRoad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#253748"/>
+      <stop offset="1" stop-color="#1b2835"/>
+    </linearGradient>
+    <linearGradient id="gCab" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="1" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#gSky)"/>
+  <rect y="470" width="1200" height="250" fill="url(#gRoad)"/>
+  <rect y="520" width="1200" height="18" fill="#e5e7eb" opacity="0.3"/>
+  <rect y="580" width="1200" height="14" fill="#e5e7eb" opacity="0.25"/>
+  <rect x="160" y="380" width="520" height="160" rx="22" fill="#e5e7eb" opacity="0.08" stroke="#67e8f9" stroke-opacity="0.35" stroke-width="3"/>
+  <rect x="220" y="360" width="320" height="120" rx="20" fill="url(#gCab)" stroke="#f97316" stroke-opacity="0.4" stroke-width="3"/>
+  <rect x="540" y="380" width="160" height="140" rx="18" fill="#0ea5e9" opacity="0.9"/>
+  <rect x="580" y="400" width="70" height="70" rx="8" fill="#e0f2fe"/>
+  <rect x="250" y="390" width="80" height="60" rx="10" fill="#fff" opacity="0.88"/>
+  <rect x="350" y="390" width="80" height="60" rx="10" fill="#fff" opacity="0.88"/>
+  <circle cx="260" cy="540" r="46" fill="#0f172a" stroke="#67e8f9" stroke-width="8"/>
+  <circle cx="560" cy="540" r="46" fill="#0f172a" stroke="#67e8f9" stroke-width="8"/>
+  <circle cx="260" cy="540" r="18" fill="#e2e8f0"/>
+  <circle cx="560" cy="540" r="18" fill="#e2e8f0"/>
+  <rect x="780" y="310" width="260" height="200" rx="22" fill="#0b2538" stroke="#67e8f9" stroke-opacity="0.4" stroke-width="3"/>
+  <rect x="820" y="340" width="180" height="60" rx="12" fill="#102c42"/>
+  <rect x="820" y="420" width="140" height="60" rx="12" fill="#102c42"/>
+  <circle cx="990" cy="450" r="24" fill="#22d3ee" opacity="0.8"/>
+  <text x="180" y="180" fill="#e0f2fe" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="54" font-weight="700">Transport Mode Optimization</text>
+  <text x="180" y="226" fill="#cbd5e1" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="22" font-weight="500">Agentic routing · PyTorch forecasting · Cost vs speed</text>
+  <path d="M220 470c32-14 64-14 96 0 32 14 64 14 96 0 32-14 64-14 96 0" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M800 270c24 12 48 12 72 0 24-12 48-12 72 0 24 12 48 12 72 0" stroke="#67e8f9" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>

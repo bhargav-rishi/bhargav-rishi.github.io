@@ -1,0 +1,35 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#gDark)"/>
+  <circle cx="320" cy="200" r="120" fill="#38bdf8" opacity="0.18"/>
+  <circle cx="900" cy="520" r="200" fill="#1d4ed8" opacity="0.12"/>
+  <rect x="420" y="180" width="260" height="320" rx="36" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="4"/>
+  <rect x="460" y="220" width="180" height="120" rx="24" fill="#111827" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="3"/>
+  <circle cx="520" cy="260" r="20" fill="#22d3ee"/>
+  <circle cx="580" cy="260" r="20" fill="#22d3ee"/>
+  <rect x="500" y="310" width="100" height="14" rx="7" fill="#22d3ee" opacity="0.8"/>
+  <rect x="470" y="360" width="140" height="90" rx="18" fill="#1f2937"/>
+  <rect x="480" y="380" width="60" height="52" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="2"/>
+  <rect x="560" y="380" width="40" height="52" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="2"/>
+  <rect x="420" y="450" width="80" height="80" rx="20" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+  <rect x="600" y="450" width="80" height="80" rx="20" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+  <rect x="500" y="500" width="100" height="26" rx="12" fill="#38bdf8" opacity="0.8"/>
+  <rect x="700" y="260" width="120" height="220" rx="28" fill="#0f172a" stroke="#22d3ee" stroke-opacity="0.4" stroke-width="3"/>
+  <rect x="740" y="230" width="60" height="60" rx="12" fill="#22d3ee" opacity="0.85"/>
+  <rect x="750" y="240" width="40" height="40" rx="8" fill="#0b1020"/>
+  <rect x="720" y="320" width="100" height="26" rx="12" fill="#22d3ee" opacity="0.7"/>
+  <rect x="720" y="360" width="100" height="20" rx="10" fill="#22d3ee" opacity="0.5"/>
+  <path d="M760 220c0-24 18-44 40-44s40 20 40 44v18" stroke="#22d3ee" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <text x="170" y="160" fill="#e0f2fe" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="50" font-weight="700">Gesture-Based Action Recognition</text>
+  <text x="170" y="200" fill="#cbd5e1" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="22" font-weight="500">Skeletons · Transformers · ST-GCN · Wave hello</text>
+  <path d="M300 520c18-26 52-34 78-16s32 54 14 80c-18 26-52 34-78 16s-32-54-14-80z" fill="url(#gBlue)" opacity="0.35"/>
+</svg>
