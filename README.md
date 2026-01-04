@@ -1,6 +1,6 @@
-# Bhargav Rishi — Static Portfolio
+# Bhargav Rishi — Portfolio
 
-Pure HTML/CSS/JS portfolio (no build tools). Open `index.html` in a browser to view.
+Pure HTML/CSS/JS portfolio.
 
 ## File structure
 - `index.html` — markup, navigation, hero/profile/featured/all-projects sections.
@@ -10,7 +10,7 @@ Pure HTML/CSS/JS portfolio (no build tools). Open `index.html` in a browser to v
 
 ## Technologies
 - HTML5 + vanilla CSS (custom theming, grids/flex, scroll offsets for anchors).
-- Vanilla JS for rendering skills, strengths, and project cards from data.
+- JS for rendering skills, strengths, and project cards from data.
 - Local assets; some projects link to external GitHub repos for details.
 
 ## Editing content
