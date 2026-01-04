@@ -1,20 +1,27 @@
 const contactEmail =
-  "mailto:rishibhargav.m@gmail.com?subject=Let%27s%20build%20something";
+  "mailto:rishibhargav.m@gmail.com?subject=Portfolio%20Inquiry%20%2D%20Rishi";
+
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+window.scrollTo(0, 0);
 
 const skills = [
-  "AI/ML: PyTorch, Transformers, computer vision (ViT), speech/emotion models",
-  "RAG/Agents: LangChain, pgvector/FAISS, Azure OpenAI, MCP tools",
-  "Data/ETL: Ab Initio, Airflow, SQL Server/Oracle/Netezza, MariaDB",
-  "Backend/Cloud: FastAPI, Django, ASP.NET Core, REST APIs, Azure/AWS/GCP, Docker, CI/CD",
-  "Analytics/BI: Power BI, Tableau, Qlik, Chart.js",
-  "Databases/Langs: Postgres, MSSQL, Oracle, MariaDB, MongoDB | Python, C#, SQL, JS",
+  "AI/ML: PyTorch, Deep Learning, Reinforcement Learning, Transformers, Large Language Models",
+  "RAG/Agents: LangChain, FAISS/pgvector, Azure OpenAI, Hugging Face embeddings, MCP tooling",
+  "Analytics/BI: Power BI, Tableau, Qlik, Chart.js, R Studio, SSRS",
+  "Data/ETL + Databases: Ab Initio, Oracle, MSSQL, PostgreSQL, MySQL/MariaDB, Netezza, MongoDB, Supabase/pgvector, SSIS, SSMS",
+  "Cloud: Azure, AWS, GCP, Oracle Cloud, Snowflake",
+  "Languages: Python, R, C, C#, Java, SQL/PLSQL, HTML/CSS/JS, Linux/UNIX",
+  "Backend: FastAPI, Django, ASP.NET Core, REST APIs, CI/CD",
+  "Tools/Services: Jenkins, JIRA, Control-M, MS Office",
 ];
 
 const strengths = [
-  "Outcome-first storytelling with measurable impact",
-  "Hands-on builder: solo delivery across design, data, and infra",
-  "Privacy- and reliability-minded by default",
-  "Crisp handoffs and stakeholder communication",
+  "Clear, decision-focused communication grounded in data",
+  "End-to-end delivery mindset from data pipelines to ML and dashboards",
+  "Reliability and privacy awareness in system design",
+  "Collaborative, responsive partner to stakeholders and teammates",
 ];
 
 const projects = [
@@ -24,6 +31,8 @@ const projects = [
       "PyTorch MLP cost model plus goal-driven agent and Q-learning to recommend cheapest/fastest/balanced freight modes on the FAF dataset, including feature interpolation for future-year projections.",
     tags: ["PyTorch", "Q-Learning", "Optimization", "FAF4"],
     year: "2025",
+    result:
+      "Guided cheapest/fastest/balanced freight choices with future-year forecasting.",
     image: "./assets/transport1.jpg",
     link: "https://github.com/Bhargav-Rishi/AgenticAI-Transport-Optimization-Deep-Learning",
   },
@@ -33,6 +42,7 @@ const projects = [
       "ASP.NET Core MVC dashboard over the NYC Open Data collisions API with CRUD, filters, and Chart.js visualizations; deployed to Azure App Service for public-safety insights.",
     tags: ["ASP.NET Core", "C#", "Chart.js", "Azure"],
     year: "2025",
+    result: "Delivered a live public-safety dashboard with CRUD workflows on Azure.",
     image: "./assets/nyc_data.jpg",
     link: "https://github.com/Bhargav-Rishi/NYC-Collisions-Analytics-DotNet-App",
   },
@@ -42,6 +52,7 @@ const projects = [
       "Decision Tree, Random Forest, SVM, and Naïve Bayes models on soil/weather features to recommend crops with full precision/recall/F1 reporting.",
     tags: ["Machine Learning", "Agritech", "Python"],
     year: "2024",
+    result: "Improved crop recommendations with up to 91% accuracy.",
     image: "./assets/crop2.jpg",
     link: "https://github.com/bhargav-rishi/Smart-Crop-Prediction-Machine-Learning",
   },
@@ -51,7 +62,7 @@ const projects = [
       "Transactional e-commerce-style DB for reviews/users/products with indexing and query tuning to keep heavy reads fast while preserving ACID guarantees.",
     tags: ["MariaDB", "SQL", "Database Design"],
     year: "2024",
-    badge: "MariaDB",
+    result: "Improved read performance for heavy-traffic review queries.",
     image: "./assets/databases-zeenea.jpg",
     link: "https://github.com/bhargav-rishi/Amazon-Product-Reviews-Database",
   },
@@ -61,6 +72,7 @@ const projects = [
       "Architecture, UML, microservices blueprint, and low/high-fidelity UX for mobile ticket purchase, storage, and validation flows.",
     tags: ["Product Design", "Architecture", "UX"],
     year: "2025",
+    result: "Produced end-to-end design artifacts for stakeholder alignment.",
     image: "./assets/tixly.jpg",
     link: "https://github.com/Bhargav-Rishi/Tixly_App_Design",
   },
@@ -70,16 +82,19 @@ const projects = [
       "FastAPI + LangChain RAG with Flan-T5, FAISS, and BAAI embeddings; handles multi-PDF uploads, validates inputs, cites sources, and serves a React/Tailwind UI deployed to Render/Hugging Face.",
     tags: ["FastAPI", "LangChain", "FAISS", "Flan-T5", "React"],
     year: "2025",
+    result: "Boosted retrieval relevance by 30% for more accurate legal answers.",
     image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1400&q=80",
     link: "https://github.com/Bhargav-Rishi/Know-Your-Rights-ChatBot-RAG",
   },
   {
     title: "USF Campus Concierge (Multi-Agent RAG)",
     summary:
-      "Streamlit concierge for Admissions/Orientation that grounds every answer in Supabase pgvector, routes Azure Phi-4 (orchestrator/email/meeting) through MCP tools, and safely drafts/sends Gmail or Calendar invites with audit logs.",
-    tags: ["Streamlit", "pgvector", "Azure Phi-4", "MCP", "Supabase"],
+      "Streamlit multi-agent RAG assistant using Supabase pgvector, recursive chunking, and embeddinggemma-300m embeddings with MCP tools for Gmail/Calendar actions.",
+    tags: ["Streamlit", "pgvector", "Azure Phi-4", "MCP", "Supabase", "Google EmbeddingGemma"],
     year: "2025",
     featured: true,
+    result:
+      "Enabled auditable, human-approved onboarding outreach workflows.",
     image: "./assets/usf.png",
     link: "https://github.com/bhargav-rishi/USFConcierge",
   },
@@ -90,7 +105,8 @@ const projects = [
     tags: ["Tableau", "Data Analysis", "Public Health"],
     year: "2025",
     featured: true,
-    badge: "Health+",
+    result:
+      "Found no consistent emissions–asthma link after normalization across demographics.",
     image: "./assets/Emissions.jpg",
     link: "https://public.tableau.com/app/profile/bhargav.rishi.medisetti/viz/GreenhouseGasEmissionsVsAsthma/EmissionsEnvironmentalExposure",
   },
@@ -101,21 +117,24 @@ const projects = [
     tags: ["ST-GCN", "TCN", "Transformer", "PyTorch"],
     year: "2025",
     featured: true,
+    result: "Achieved 78% accuracy for gesture recognition in HRI scenarios.",
     image: "./assets/robot.jpg",
     link: "https://github.com/bhargav-rishi/Gesture-Recognition-Deep-Learning",
   },
   {
     title: "Emotion Recognition from Speech",
     summary:
-      "Audio emotion classifier using spectrograms and transformer-based encoders to label 8-class emotions with balanced precision/recall across actors.",
+      "Audio emotion classifier using mel-spectrograms and transformer-based encoders to label 8-class emotions with balanced precision/recall across actors.",
     tags: ["Audio ML", "Transformers", "PyTorch"],
     year: "2025",
+    result: "Reached 74% accuracy across 8 emotions for speech sentiment insights.",
     image: "./assets/emotion.jpg",
     link: "https://github.com/bhargav-rishi/Emotion-Recognition-ViT-Deep-Learning",
   }
 ];
 
-const skillsContainer = document.getElementById("skills");
+const skillsPrimary = document.getElementById("skillsPrimary");
+const skillsSecondary = document.getElementById("skillsSecondary");
 const strengthsContainer = document.getElementById("strengths");
 const featuredGrid = document.getElementById("featuredGrid");
 const allProjectsGrid = document.getElementById("allProjectsGrid");
@@ -126,11 +145,21 @@ const sortedProjects = [...projects].sort(
   (a, b) => getSortDate(b).getTime() - getSortDate(a).getTime()
 );
 
-skills.forEach((skill) => {
+const primarySkills = skills.slice(0, 6);
+const secondarySkills = skills.slice(6);
+
+primarySkills.forEach((skill) => {
   const chip = document.createElement("span");
   chip.className = "chip";
   chip.textContent = skill;
-  skillsContainer.appendChild(chip);
+  skillsPrimary.appendChild(chip);
+});
+
+secondarySkills.forEach((skill) => {
+  const chip = document.createElement("span");
+  chip.className = "chip";
+  chip.textContent = skill;
+  skillsSecondary.appendChild(chip);
 });
 
 strengths.forEach((item) => {
@@ -153,6 +182,7 @@ const renderProjectCard = (project, container) => {
           <h3>${project.title}</h3>
         </div>
         <p>${project.summary}</p>
+        ${project.result ? `<p class="project-result">Result: ${project.result}</p>` : ""}
         <div class="tag-row">
           ${project.tags
             .map(
