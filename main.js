@@ -7,39 +7,38 @@ if ("scrollRestoration" in history) {
 window.scrollTo(0, 0);
 
 const skills = [
-  "AI/ML: PyTorch, Deep Learning, Reinforcement Learning, Transformers, Large Language Models",
+  "AI/ML: PyTorch, Scikit-learn, TensorFlow, Deep Learning, Reinforcement Learning, Transformers",
   "RAG/Agents: LangChain, FAISS/pgvector, Azure OpenAI, Hugging Face embeddings, MCP tooling",
-  "Analytics/BI: Power BI, Tableau, Qlik, Chart.js, R Studio, SSRS",
-  "Data/ETL + Databases: Ab Initio, Oracle, MSSQL, PostgreSQL, MySQL/MariaDB, Netezza, MongoDB, Supabase/pgvector, SSIS, SSMS",
-  "Cloud: Azure, AWS, GCP, Oracle Cloud, Snowflake",
-  "Languages: Python, R, C, C#, Java, SQL/PLSQL, HTML/CSS/JS, Linux/UNIX",
-  "Backend: FastAPI, Django, ASP.NET Core, REST APIs, CI/CD",
-  "Tools/Services: Jenkins, JIRA, Control-M, MS Office",
+  "Analytics/BI: Power BI, Tableau, Excel, Pandas, NumPy, Statistical Modeling, Hypothesis Testing",
+  "Data/ETL + Databases: Ab Initio, Oracle, MSSQL, PostgreSQL, MySQL/MariaDB, Netezza, MongoDB, Supabase/pgvector",
+  "Cloud: Azure, AWS, GCP, Snowflake",
+  "Languages: Python, SQL/PLSQL, R, C#, Java, Linux/UNIX",
+  "Additional Skills: FastAPI, Django, ASP.NET Core, REST APIs, Docker, Jenkins, JIRA, Control-M, MS Office",
 ];
 
 const strengths = [
-  "Clear, decision-focused communication grounded in data",
-  "End-to-end delivery mindset from data pipelines to ML and dashboards",
-  "Reliability and privacy awareness in system design",
-  "Collaborative, responsive partner to stakeholders and teammates",
+  "Translates complex data into clear, decision-ready outputs",
+  "Builds end-to-end systems across pipelines, analytics, and ML",
+  "Designs for reliability, traceability, and human oversight",
+  "Works effectively with technical and non-technical stakeholders",
 ];
 
 const projects = [
   {
     title: "Agentic AI for Transport Mode Optimization",
     summary:
-      "PyTorch MLP cost model plus goal-driven agent and Q-learning to recommend cheapest/fastest/balanced freight modes on the FAF dataset, including feature interpolation for future-year projections.",
+      "Built a PyTorch cost-prediction model and agent-based optimization workflow on FAF freight data to recommend cheapest, fastest, or balanced transport modes, including future-year scenario forecasting.",
     tags: ["PyTorch", "Q-Learning", "Optimization", "FAF4"],
     year: "2025",
     result:
-      "Guided cheapest/fastest/balanced freight choices with future-year forecasting.",
+      "Enabled scenario-based freight recommendations for future planning decisions.",
     image: "./assets/transport1.jpg",
     link: "https://github.com/Bhargav-Rishi/AgenticAI-Transport-Optimization-Deep-Learning",
   },
   {
     title: "NYC Motor Vehicle Collisions Analytics",
     summary:
-      "ASP.NET Core MVC dashboard over the NYC Open Data collisions API with CRUD, filters, and Chart.js visualizations; deployed to Azure App Service for public-safety insights.",
+      "Built an ASP.NET Core MVC analytics app on live NYC Open Data APIs so users could explore collision trends through filters, CRUD workflows, and Chart.js dashboards.",
     tags: ["ASP.NET Core", "C#", "Chart.js", "Azure"],
     year: "2025",
     result: "Delivered a live public-safety dashboard with CRUD workflows on Azure.",
@@ -49,7 +48,7 @@ const projects = [
   {
     title: "Smart Crop Prediction",
     summary:
-      "Decision Tree, Random Forest, SVM, and Naïve Bayes models on soil/weather features to recommend crops with full precision/recall/F1 reporting.",
+      "Modeled soil and weather data with Decision Tree, Random Forest, SVM, and Naive Bayes algorithms to recommend the most suitable crop for a field, with full precision/recall/F1 evaluation.",
     tags: ["Machine Learning", "Agritech", "Python"],
     year: "2024",
     result: "Improved crop recommendations with up to 91% accuracy.",
@@ -59,17 +58,17 @@ const projects = [
   {
     title: "ADBMS Amazon (MariaDB)",
     summary:
-      "Transactional e-commerce-style DB for reviews/users/products with indexing and query tuning to keep heavy reads fast while preserving ACID guarantees.",
+      "Designed a transactional MariaDB database for users, products, and reviews, then optimized indexing and query performance to support heavy read workloads while preserving ACID guarantees.",
     tags: ["MariaDB", "SQL", "Database Design"],
     year: "2024",
-    result: "Improved read performance for heavy-traffic review queries.",
+    result: "Reduced read latency by about 35% for high-volume review queries.",
     image: "./assets/databases-zeenea.jpg",
     link: "https://github.com/bhargav-rishi/Amazon-Product-Reviews-Database",
   },
   {
     title: "Tixly Mobile Ticketing Design",
     summary:
-      "Architecture, UML, microservices blueprint, and low/high-fidelity UX for mobile ticket purchase, storage, and validation flows.",
+      "Designed an end-to-end mobile ticketing experience, including UML diagrams, a microservices architecture, and low/high-fidelity UX flows for ticket purchase, storage, and validation.",
     tags: ["Product Design", "Architecture", "UX"],
     year: "2025",
     result: "Produced end-to-end design artifacts for stakeholder alignment.",
@@ -79,7 +78,7 @@ const projects = [
   {
     title: "Know Your Rights — Legal Chatbot",
     summary:
-      "FastAPI + LangChain RAG with Flan-T5, FAISS, and BAAI embeddings; handles multi-PDF uploads, validates inputs, cites sources, and serves a React/Tailwind UI deployed to Render/Hugging Face.",
+      "Built a FastAPI and LangChain legal assistant that ingests multiple PDFs, retrieves relevant context with FAISS, and generates grounded answers through a React interface with source citations.",
     tags: ["FastAPI", "LangChain", "FAISS", "Flan-T5", "React"],
     year: "2025",
     result: "Boosted retrieval relevance by 30% for more accurate legal answers.",
@@ -89,8 +88,8 @@ const projects = [
   {
     title: "USF Campus Concierge (Multi-Agent RAG)",
     summary:
-      "Streamlit multi-agent RAG assistant using Supabase pgvector, recursive chunking, and embeddinggemma-300m embeddings with MCP tools for Gmail/Calendar actions.",
-    tags: ["Streamlit", "pgvector", "Azure Phi-4", "MCP", "Supabase", "Google EmbeddingGemma"],
+      "Built a Streamlit multi-agent RAG assistant for university onboarding that retrieves from Supabase pgvector, applies safety guardrails, and uses MCP tools for Gmail and Calendar actions.",
+    tags: ["Streamlit", "pgvector", "Azure Phi-4", "MCP", "Supabase", "EmbeddingGemma-300M"],
     year: "2025",
     featured: true,
     result:
@@ -101,7 +100,7 @@ const projects = [
   {
     title: "Emissions vs Asthma Analysis",
     summary:
-      "Tableau Prep + dashboards across EPA/CDC/Census data (1990–2022 emissions, 2015–2022 adult asthma, 1998–2017 child indicators); no consistent emissions–asthma link after per-capita/density normalization.",
+      "Analyzed EPA, CDC, and Census data across all 50 states in Tableau Prep and Tableau to test whether emissions tracked asthma rates after per-capita and density normalization.",
     tags: ["Tableau", "Data Analysis", "Public Health"],
     year: "2025",
     featured: true,
@@ -113,7 +112,7 @@ const projects = [
   {
     title: "Gesture-Based Action Recognition",
     summary:
-      "Experimented with 2s-ST-GCN, 2s-TCN, and Transformer encoders on 3D skeleton sequences to improve gesture classification reliability; built preprocessing notebooks and demo pipelines.",
+      "Benchmarked ST-GCN, TCN, and Transformer models on 3D skeleton sequences to recognize worker gestures for human-robot interaction, supported by preprocessing notebooks and demo pipelines.",
     tags: ["ST-GCN", "TCN", "Transformer", "PyTorch"],
     year: "2025",
     featured: true,
@@ -124,7 +123,7 @@ const projects = [
   {
     title: "Emotion Recognition from Speech",
     summary:
-      "Audio emotion classifier using mel-spectrograms and transformer-based encoders to label 8-class emotions with balanced precision/recall across actors.",
+      "Converted speech samples into mel-spectrograms and trained transformer-based models to classify eight emotion categories with balanced precision and recall across speakers.",
     tags: ["Audio ML", "Transformers", "PyTorch"],
     year: "2025",
     result: "Reached 74% accuracy across 8 emotions for speech sentiment insights.",
@@ -175,7 +174,6 @@ const renderProjectCard = (project, container) => {
   card.innerHTML = `
       <div class="project-image" style="background-image:url('${project.image}')">
         ${project.badge ? `<span class="pill left">${project.badge}</span>` : ""}
-        <span class="pill">${project.year}</span>
       </div>
       <div class="project-body">
         <div class="section-head" style="margin-bottom:6px;">
@@ -186,8 +184,7 @@ const renderProjectCard = (project, container) => {
         <div class="tag-row">
           ${project.tags
             .map(
-              (tag) =>
-                `<span class="pill" style="background: rgba(15,23,42,0.6);">${tag}</span>`
+              (tag) => `<span class="pill tag-pill">${tag}</span>`
             )
             .join("")}
         </div>
@@ -202,7 +199,7 @@ const renderProjectCard = (project, container) => {
 featuredProjects.forEach((project) => renderProjectCard(project, featuredGrid));
 sortedProjects.forEach((project) => renderProjectCard(project, allProjectsGrid));
 
-["contactTop", "contactProjects", "contactBottom"].forEach((id) => {
+["contactTop", "contactProjects", "contactBottom", "contactInline"].forEach((id) => {
   const el = document.getElementById(id);
   if (el) {
     el.href = contactEmail;
