@@ -103,8 +103,8 @@ a {
 }
 
 .brand-photo {
-  width: clamp(110px, 12vw, 132px);
-  height: clamp(166px, 18vw, 198px);
+  width: clamp(150px, 25vw, 150px);
+  height: flex;
   padding: 5px;
   border-radius: 28px;
   overflow: hidden;
